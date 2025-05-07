@@ -1,0 +1,364 @@
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+    <head>
+      <meta data-n-head="ssr" charset="utf-8">
+      <meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1">
+      <meta data-n-head="ssr" name="google-site-verification" content="Vyp6Lq2HJODQviN98DbqlmqefoUuDj_cwlmS7jAgaao">
+      <meta data-n-head="ssr" name="title" content="Alphaplay">
+      <meta data-n-head="ssr" name="description" content="Fun tools, games, visualizations, and interactive experiments at Alphaplay!">
+      
+        <<title>Alphaplay</title>
+        <style data-vue-ssr-id="49569972:0 312b016c:0 71ad59bc:0 92b28a2c:0">
+            .nuxt-progress {
+                background-color: #000;
+                height: 2px;
+                left: 0;
+                opacity: 1;
+                position: fixed;
+                right: 0;
+                top: 0;
+                transition: width .1s,opacity .4s;
+                width: 0;
+                z-index: 999999
+            }
+
+            .nuxt-progress.nuxt-progress-notransition {
+                transition: none
+            }
+
+            .nuxt-progress-failed {
+                background-color: red
+            }
+
+            @font-face {
+                font-family: Roboto;
+                src: url(/_nuxt/fonts/Roboto-Medium.3ac5d40.woff2)
+            }
+
+            @font-face {
+                font-family: Roboto;
+                font-weight: 700;
+                src: url(/_nuxt/fonts/Roboto-Bold.a65527f.woff2)
+            }
+
+            html {
+                font-size: 16px;
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+                -moz-osx-font-smoothing: grayscale;
+                -webkit-font-smoothing: antialiased;
+                background: #fff;
+                box-sizing: border-box;
+                color: #000;
+                font-family: Roboto,sans-serif
+            }
+
+            *,:after,:before {
+                box-sizing:border-box; 
+                 margin:0;
+            }
+
+            .simple-page {
+                background: #f1f2f6
+            }
+
+            .pw_report_ad_container {
+                display: none!important
+            }
+
+            @font-face {
+                font-family: RobotoCondensedLight;
+                src: url(/_nuxt/fonts/RobotoCondensed-Light.bc0664d.woff2)
+            }
+
+            .container[data-v-9c227fe8] {
+                color: #000;
+                font-family: RobotoCondensedLight,sans-serif;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .follow-block[data-v-9c227fe8] {
+                background-color: #fff;
+                font-size: 20px;
+                margin-bottom: 37px;
+                text-align: center
+            }
+
+            .posts[data-v-9c227fe8] {
+                display: grid;
+                /* font-size:0; */
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: auto;
+                margin-top: 10px;
+                grid-gap: 20px 22px;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1400px;
+                padding: 0 25px;
+                width: 100%
+            }
+
+            .made-by[data-v-9c227fe8] {
+                background: #fff;
+                font-size: 21px;
+                margin-bottom: 40px;
+                margin-top: 10px;
+                padding: 25px 20px 20px;
+                text-align: center
+            }
+
+            .site-title[data-v-9c227fe8] {
+                animation: pulse 1s infinite alternate-reverse;
+                display: block;
+                font-weight: 700;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 58px;
+                max-width: 210px;
+                min-height: 55px;
+                text-align: center;
+                width: 100%
+            }
+
+            .site-tagline[data-v-9c227fe8] {
+                font-size: 21px;
+                margin-bottom: 47px;
+                margin-top: 10px;
+                opacity: .7;
+                text-align: center
+            }
+
+            .socials[data-v-9c227fe8] {
+                display: flex;
+                justify-content: center;
+                grid-gap: 12px;
+                margin-top: 12px
+            }
+
+            .social-btn[data-v-9c227fe8] {
+                align-items: center;
+                border: 1px solid #000;
+                border-radius: 12px;
+                color: #000;
+                cursor: pointer;
+                display: flex;
+                padding: 10px 18px 8px 12px;
+                -webkit-text-decoration: none;
+                text-decoration: none
+            }
+
+            .social-btn[data-v-9c227fe8]:hover {
+                transform: scale(1.04)
+            }
+
+            .social-btn-icon[data-v-9c227fe8] {
+                height: 26px;
+                margin-right: 10px
+            }
+
+            .social-btn-twitter[data-v-9c227fe8] {
+                padding: 1px 0
+            }
+
+            .contact[data-v-9c227fe8] {
+                margin-top: 12px
+            }
+
+            .contact a[data-v-9c227fe8],.privacy[data-v-9c227fe8] {
+                color: #000;
+                -webkit-text-decoration: none;
+                text-decoration: none
+            }
+
+            .privacy[data-v-9c227fe8] {
+                display: block;
+                font-size: 16px;
+                margin-top: 12px;
+                opacity: .5;
+               padding-bottom: 24px;
+
+            }
+
+            .newsletter-tagline[data-v-9c227fe8] {
+                cursor: pointer;
+                display: flex;
+                font-size: 20px;
+                position: absolute;
+                right: 10px;
+                top: 9px
+            }
+
+            .newsletter-tagline[data-v-9c227fe8]:hover {
+                transform: scale(1.03)
+            }
+
+            .newsletter-icon[data-v-9c227fe8] {
+                height: 15px;
+                margin-right: 5px;
+                position: relative;
+                top: 4px
+            }
+
+            @media only screen and (max-width: 1280px) {
+                .posts[data-v-9c227fe8] {
+                    grid-gap:15px 16px
+                }
+            }
+
+            @media only screen and (max-width: 1130px) {
+                .posts[data-v-9c227fe8] {
+                    grid-template-columns:1fr 1fr;
+                    max-width: 900px;
+                    grid-gap: 15px 18px
+                }
+            }
+
+            @media only screen and (max-width: 700px) {
+                .newsletter-tagline[data-v-9c227fe8] {
+                    display:none
+                }
+            }
+
+            @media only screen and (max-width: 600px) {
+                .posts[data-v-9c227fe8] {
+                    grid-template-columns:repeat(1,1fr);
+                    grid-gap: 7px;
+                    padding: 0 8px
+                }
+
+                .site-title[data-v-9c227fe8] {
+                    font-size: 48px;
+                    margin-top: 55px
+                }
+
+                .site-tagline[data-v-9c227fe8] {
+                    margin-top: 10px
+                }
+
+                .made-by[data-v-9c227fe8],.site-tagline[data-v-9c227fe8] {
+                    margin-bottom: 30px
+                }
+
+                .made-by-desc[data-v-9c227fe8] {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 300px
+                }
+
+                .socials[data-v-9c227fe8] {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr
+                }
+
+                .social-btn[data-v-9c227fe8] {
+                    justify-content: center;
+                    padding: 10px 0
+                }
+
+                .social-full[data-v-9c227fe8] {
+                    grid-column: span 2
+                }
+            }
+
+            .link {
+                aspect-ratio: 391/145;
+                border-radius: 19px;
+                display: block;
+                min-width: 100%;
+                width: 100%;
+                z-index: 2
+            }
+
+            .link-img {
+                 cursor:pointer; 
+                max-width:100%; 
+                opacity: 1 !important;
+               transition:transform .07s linear,filter .1s ease-out,opacity .15s linear; 
+            }
+
+            .link-img:hover {
+                filter: drop-shadow(3px 3px 5px rgba(0,0,0,.17));
+                transform: scale(1.02)
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div data-server-rendered="true" id="__nuxt">
+            <!---->
+            <div id="__layout">
+                <div>
+                    <div class="container" data-v-9c227fe8>
+                        
+                        <img alt="Alphaplay logo" src="/life stats/images/image.png" class="site-title" data-v-9c227fe8>
+                        <div class="site-tagline" data-v-9c227fe8>Games and other stuff</div>
+                        <!---->
+                        <div class="posts" data-v-9c227fe8>
+                            <a href="/life stats/" class="link" style="background:#f1f2f6" data-v-9c227fe8>
+                                <img onload="" alt="Internet Roadtrip" src="/life stats/images/life-stats.jpg" loading="lazy" class="link-img" style="opacity:0">
+                            </a>
+                          
+                        </div>
+                        <div class="made-by" data-v-9c227fe8>
+                          <div class="made-by-desc" data-v-9c227fe8>
+                            Hey there! I'm Shahroz Shahid, your go-to web creator. Welcome to my world of digital creations! Explore the cool stuff I’ve built!
+                        </div>
+                        
+                         
+                            
+                          <a href="/privacy-policy/" class="privacy" data-v-9c227fe8>Privacy Policy</a>
+
+
+                          
+                          
+                          
+                          <footer>
+                            <p>Made with ❤️ by AlphaCodeHub</p>
+                        </footer>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            (function() {
+                function c() {
+                    var b = a.contentDocument || a.contentWindow.document;
+                    if (b) {
+                        var d = b.createElement('script');
+                        d.innerHTML = "window.__CF$cv$params={r:'93bfe14768134a59',t:'MTc0NjYxMjEyNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                        b.getElementsByTagName('head')[0].appendChild(d)
+                    }
+                }
+                if (document.body) {
+                    var a = document.createElement('iframe');
+                    a.height = 1;
+                    a.width = 1;
+                    a.style.position = 'absolute';
+                    a.style.top = 0;
+                    a.style.left = 0;
+                    a.style.border = 'none';
+                    a.style.visibility = 'hidden';
+                    document.body.appendChild(a);
+                    if ('loading' !== document.readyState)
+                        c();
+                    else if (window.addEventListener)
+                        document.addEventListener('DOMContentLoaded', c);
+                    else {
+                        var e = document.onreadystatechange || function() {}
+                        ;
+                        document.onreadystatechange = function(b) {
+                            e(b);
+                            'loading' !== document.readyState && (document.onreadystatechange = e,
+                            c())
+                        }
+                    }
+                }
+            }
+            )();
+        </script>
+    </body>
+</html>
