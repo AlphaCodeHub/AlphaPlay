@@ -1,22 +1,14 @@
-# Life States
+**Alphafun** is an interactive web application featuring fun tools and visual experiences. It includes Life Stats — a tool that visualizes key statistics about your life based on your age and date of birth — and more interactive projects are coming soon. Alphafun offers a unique way to explore time, milestones, and playful web experiments through engaging visuals and animations.
 
-**Life States** is an interactive web application that visualizes key statistics about your life based on personal data inputs like age and date of birth. It provides a unique perspective on the passage of time and important life milestones through engaging visual effects and animations.
 
-## Features
-- Input your age and date of birth to get personalized life statistics.
-- Dynamic visualization of life data.
-- Scroll-triggered animations to enhance user interaction.
-- Insights into various life milestones and timelines.
+**Tools**
+**Life Stats** — Visualizes your life statistics and milestones.
 
-## Live Demo
-Check out the live version: [Life States](https://ranjanworks.github.io/lifeStates/)
+More tools coming soon... (Fun games, interactive experiments, and more!)
 
-## How It Works
-1. Enter your date of birth.
-2. The app calculates various life statistics.
-3. Visualizations are displayed with animations as you scroll through the page.
+**Technologies Used**
+-HTML5
+-CSS3
+-JavaScript
 
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
+
